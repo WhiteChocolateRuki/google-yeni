@@ -1,0 +1,121 @@
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color:  #5f6368;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+
+
+.button {
+    background-color: #4538f9; 
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 12%;
+    width: 25%;
+    
+  }
+
+  form.search {
+    display: flex;
+}
+form.search input {
+    height: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    box-sizing: border-box;
+    padding: 0 15px;
+    flex: 1;
+    outline: 0;
+}
+form.search button {
+    height: 40px;
+    padding: 0 30px;
+    background: #393a3b;
+    color: #fff;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+}
+
+.alt-buton{
+    
+
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 10px;
+    border: 1px;
+    background-color: #f2f2f2;
+    border-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:  #5f6368;
+    
+    
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    color:  #5f6368;
+    text-align: left;
+    font-size: 14px;
+    
+    
+}
+.ul-2{
+    list-style-type: none;
+}
